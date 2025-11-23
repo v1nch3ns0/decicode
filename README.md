@@ -10,7 +10,8 @@ my stack-based vm esolang written in rust in under 100 lines of code made to be 
 -    SUB: Pop the top value into a, pop the next value into b, push (b - a) back onto the stack.
 /    DIV: Pop the top value into a, pop the next value into b, push (b / a) back onto the stack.
 &    DUP: Duplicate the top value of the stack.
-^    OUT: Peek the top value and print it as an ASCII character.
+^    PRINT_CHAR: Peek the top value and print it as an ASCII character.
+@    OUT: Peek the top value and print it as a digit.
 #    NOP: No operation.
 ?    CJMP: Conditional jump. If top of stack == 0, jump to the slot index given by the following literal.
 :    JMP: Absolute jump to the slot index given by the following literal.
