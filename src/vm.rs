@@ -71,8 +71,8 @@ impl VM {
             '*' => { let a = self.pop(); let b = self.pop(); self.push(b * a); }
             '/' => { let a = self.pop(); let b = self.pop(); self.push(b / a); }
             '&' => self.dup(),
-            '^' => { print!("{}", self.peek() ); }
-            '@' => { print!("{}", self.peek() as u8 as char ); }
+            '@' => { print!("{}", self.peek() ); }
+            '^' => { print!("{}", self.peek() as u8 as char ); }
             '#' => {}
             '?' => {
                 let target = self.read_literal();
