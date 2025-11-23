@@ -45,5 +45,10 @@ now, this might look like gibberish until i explain how it works:
 see now maybe its *kinda* easier?
 ### why you should use it and how to
 it is **VERY** compact and simple while being turing complete at the same time which is very cool!!
-to start using it just run `cargo build --release` and when you have created your program just run it with:
-- `decicode yourfile`
+to start using it just run 
+
+`cargo build --release` 
+
+and when you have created your program just run it with:
+
+`decicode yourfile`
